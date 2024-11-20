@@ -1,0 +1,33 @@
+# Ignorar archivos de configuración del IDE
+.idea/
+.vscode/
+
+# Ignorar el entorno virtual
+conexion-DB/venv/
+conexion-DB/venv/*
+conexion-DB/modules/
+conexion-DB/modules/*
+
+
+
+# Ignorar archivos compilados de Python
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar carpetas de distribución de pip
+conexion-DB/venv/Lib/site-packages/pip/
+conexion-DB/venv/Lib/site-packages/pip-*/
+
+# Ignorar otros archivos generados automáticamente
+*.log
+*.tmp
+
+# Ignorar el directorio de scripts
+conexion-DB/venv/Scripts/
+
+# Ignorar archivos de dependencias de pip
+conexion-DB/venv/Lib/site-packages/*.dist-info/
+
+# Ignorar la carpeta de módulos en conexión-DB
+conexion-DB/modules/
