@@ -1,5 +1,3 @@
-Aquí tienes el README actualizado con la sección del `git clone`:  
-
 ---
 
 # 🧠💻 **Ejercicios de Programación y Aprendizaje de Python**
