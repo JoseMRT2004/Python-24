@@ -18,7 +18,7 @@ if numeros:
     minimo = numeros[0]
     maximo = numeros[0]
 
-    for num in numeros:
+    for num in numeros: # [1,2,4,5]
         if num < minimo:
             minimo = num
         elif num > maximo:
@@ -29,4 +29,4 @@ if numeros:
  - Número mínimo: {minimo}
  - Número máximo: {maximo}\n''')
 else:
-    print("No se ingresaron números. Operación terminada.")
+    print("No se ingresaron números. Operación terminada.") 
