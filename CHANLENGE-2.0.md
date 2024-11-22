@@ -50,23 +50,9 @@
 | 46    | Validar Palíndromo con Espacios | Crea una función que determine si una frase completa es un palíndromo, ignorando espacios y mayúsculas.    |            |
 
 
-🎮 Clase Juego
-La clase Juego debe tener los siguientes atributos y métodos:
+### 🎮 Clase Juego
 
-Atributos:
-ID: Identificador único para cada juego.
-Título: Nombre del juego.
-Desarrollador: Nombre del estudio o desarrollador del juego.
-Año de Lanzamiento: Año en que el juego fue lanzado (debe ser un valor razonable).
-Géneros: Lista de géneros (aventura, acción, RPG, etc.).
-Plataformas: Lista de plataformas en las que el juego está disponible (PC, PS5, Xbox, etc.).
-Calificación: Calificación numérica (por ejemplo, 0-10), validada para no ser incorrecta.
-Métodos:
-validar_año(self): Método que verifica que el año de lanzamiento del juego sea un valor razonable (por ejemplo, no puede ser mayor al año actual).
-validar_calificacion(self): Método que valida que la calificación esté dentro del rango permitido (0-10).
-mostrar_informacion(self): Método que muestra de manera organizada los detalles del juego (título, desarrollador, año de lanzamiento, géneros, plataformas, calificación).
-
-# Clase Juego
+_La clase Juego debe tener los siguientes atributos y métodos:_
 
 La clase `Juego` maneja la información de un juego, incluyendo detalles como el título, el desarrollador, el año de lanzamiento, los géneros, las plataformas disponibles y la calificación.
 
