@@ -23,12 +23,8 @@ El propósito principal es **practicar y consolidar conceptos** de programación
 3. Revisa las soluciones: Todos los ejercicios ya están resueltos, así que **ya saben, voy adelantado**. 😉  
 4. Aprende, ajusta y experimenta con el código según tu estilo. 🎨  
 
----
 
 ## 📖 **Nota Importante**
 
 Este repositorio no está destinado a ser compartido ni a recibir contribuciones externas. **Mentira, haz lo que quieras. Esto es para aprender.** 🙌  
-
----
-
-✨ **¡Aprende y diviértete en el proceso!** ✨  
+  
