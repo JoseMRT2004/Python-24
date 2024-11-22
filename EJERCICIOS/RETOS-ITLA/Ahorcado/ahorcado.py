@@ -11,7 +11,7 @@ Muestra al jugador las letras adivinadas correctamente y las que aún faltan '''
 import random
 import os
 from key_word import PALABRAS
-from banner import titulo,perdedor,ganador,dibujo_ahorcado
+from banner import titulo,ganador,dibujo_ahorcado
 
 def cls():
  os.system('cls' if os.name == 'nt' else 'clear')

@@ -21,28 +21,7 @@
 import os
 import random 
 
- # -------------------------------------------------------- Los datos pueden estar en una base de datos solo lo dejo de referencia ------------------------------------------------ #
-productos_canjeables = [                  
-    {'nombre': 'Laptop', 'puntos': 5000},
-    {'nombre': 'Mouse', 'puntos': 100},
-    {'nombre': 'Teclado', 'puntos': 200},
-    {'nombre': 'PC-Gamer', 'puntos': 10000},
-]
-
-preguntas_respuestas = [
-    {'pregunta': '¿Cuál es el super poder de Daredevil?', 'respuesta': 'hipersensible', 'puntos': 10},
-    {'pregunta': '¿Qué animal puede volar, nadar y caminar?', 'respuesta': 'ganso', 'puntos': 500},
-    {'pregunta': '¿Personaje más fuerte de la Liga de la Justicia?', 'respuesta': 'superman', 'puntos': 20},
-    {'pregunta': '¿Qué es un pollo?', 'respuesta': 'un animal', 'puntos': 40},
-    {'pregunta': '¿Qué hace a una persona buena en algo?', 'respuesta': 'la practica', 'puntos': 250},
-    {'pregunta': '¿Cuál es el resultado de "Hola" * 7?', 'respuesta': 'imprimira 7 veces el mensaje', 'puntos': 200},
-    {'pregunta': '¿Capital de República Dominicana?', 'respuesta': 'santo domingo', 'puntos': 10},
-    {'pregunta': '¿Resultado de "2" + 23?', 'respuesta': 'error', 'puntos': 250},
-    {'pregunta': '¿Sentencia que altera una tabla?', 'respuesta': 'alter', 'puntos': 260},
-    {'pregunta': '¿Qué es un condicional?', 'respuesta': 'una sentencia de decision', 'puntos': 900},
-]
-
-#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
+from diccionario import preguntas_respuestas,productos_canjeables
 
 puntos_usuario = 0
 historial = []
