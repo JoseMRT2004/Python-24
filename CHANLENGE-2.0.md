@@ -66,6 +66,6 @@ La clase `Juego` maneja la información de un juego, incluyendo detalles como el
 - **Calificación**: Calificación numérica (0-10).
 
 ## Métodos:
-- **validar año**: Verifica que el año de lanzamiento sea válido.
-- **validar calificacion**: Valida que la calificación esté entre 0 y 10.
-- **mostrar informacion**: Muestra los detalles del juego de manera organizada.
+- **Validar año**: Verifica que el año de lanzamiento sea válido.
+- **Validar calificacion**: Valida que la calificación esté entre 0 y 10.
+- **Mostrar informacion**: Muestra los detalles del juego de manera organizada.
