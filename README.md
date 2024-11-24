@@ -31,8 +31,8 @@ El objetivo principal es **practicar y reforzar conocimientos clave** de program
    Este repositorio es tu laboratorio. Adapta el código a tu estilo, prueba nuevas ideas y experimenta sin límites. 🎨  
 
 >[!CAUTION]
-> Este repositorio no está destinado a ser compartido ni a recibir contribuciones externas. **Mentira, haz lo que quieras. Esto es para aprender.** 🙌
-
+> Este repositorio no está destinado a ser compartido ni a recibir contribuciones externas. **Mentira, haz lo que quieras. Esto es para aprender.** 
+> [🌟¡Sé parte del Salón de la Fama!.](https://github.com/JoseMRT2004/Python-24/blob/main/CONTRIBUTING.md)
 
 <details> <summary><h2><b>🏅 Salón de la Fama<b><h3></summary>
    
