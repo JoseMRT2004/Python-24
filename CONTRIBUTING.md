@@ -11,7 +11,7 @@ En la parte final del README, encontrarás el [🏅 Salón de la Fama](https://g
 
 2. Si hay demasiados ejercicios en un archivo, crea uno nuevo con el formato `CHANLENGE-<nivel>.<subnivel>.md`.
 
-3. Incluye una descripción clara de cada ejercicio y, si es posible, un ejemplo de su solución como en [CHANLENGE.md](https://github.com/JoseMRT2004/Python-24/CHANLENGE.md)📝
+3. Incluye una descripción clara de cada ejercicio y, si es posible, un ejemplo de su solución como en [CHANLENGE.md](CHANLENGE.md)📝
 
 ## ⚡🚀 Pasos para Contribuir
 1. **Fork** este repositorio 🍴
