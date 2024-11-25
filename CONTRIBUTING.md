@@ -3,7 +3,7 @@
 ¡Gracias por querer contribuir a este proyecto! Tu participación es valiosa para nuestra comunidad. A continuación, te mostramos las pautas para contribuir de manera efectiva:
 
 ## 🌟 🏅 Salón de la Fama
-En la parte final del README, encontrarás el [🏅 Salón de la Fama](https://github.com/JoseMRT2004/Python-24/blob/main/README.md****). Asegúrate de incluir tu nombre de usuario de GitHub. Cuando has hecho contribuciones significativas al proyecto o completado todos los ejercicios 🎉
+En la parte final del README, encontrarás el [🏅 Salón de la Fama](https://github.com/JoseMRT2004/Python-24/blob/main/README.md). Asegúrate de incluir tu nombre de usuario de GitHub. Cuando has hecho contribuciones significativas al proyecto o completado todos los ejercicios 🎉
 - [x] [Linus torvalds](https://github.com/torvalds)
 
 ## 📂 Agrega Ejercicios
