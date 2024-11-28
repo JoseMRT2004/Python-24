@@ -6,7 +6,7 @@
 | 2     | Recortar Texto                 | Programa una función que recorte un texto según el número de caracteres indicado.                         |     ✅       |
 | 3     | Separar Texto                  | Convierte un string en un array de textos separados por un carácter dado.                                 |     ✅       |
 | 4     | Repetir Texto                  | Repite un texto un número determinado de veces.                                                           |        ✅     |
-| 5     | Invertir Texto                 | Invierte las palabras de una cadena de texto.                                                             |            |
+| 5     | Invertir Texto                 | Invierte las palabras de una cadena de texto.                                                             |   ✅        |
 | 6     | Contar Palabras                | Cuenta cuántas veces se repite una palabra en un texto largo.                                             |            |
 | 7     | Validar Palíndromo             | Valida si un texto es un palíndromo (se lee igual al derecho y al revés).                                 |        ✅    |
 | 8     | Eliminar Patrón                | Elimina un patrón específico de caracteres en un texto.                                                   |            |
