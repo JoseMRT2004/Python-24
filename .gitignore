@@ -1,6 +1,8 @@
 # Ignorar archivos de configuración del IDE
 .idea/
 .vscode/
+chanlenge/*
+chanlenge-2.0/*
 
 # Ignorar el entorno virtual
 conexion-DB/venv/
