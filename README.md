@@ -12,7 +12,7 @@ El objetivo principal es **practicar y reforzar conocimientos clave** de program
 > Aquí encontrarás listas de ejercicios organizados en **dos etapas** con dificultad variable:  
 > - 🚀 **Challenge 2.0: Eleva tus habilidades al siguiente nivel**  
 > [Accede aquí](https://github.com/JoseMRT2004/Python-24/blob/main/CHANLENGE-2.0.md)  
-> - 🔍 **Challenge 0.2: Domina los fundamentos**  
+> - 🔍 **Challenge: Domina los fundamentos**  
 > [Accede aquí](https://github.com/JoseMRT2004/Python-24/blob/main/CHANLENGE-2.0.md)
 
 1. **Clona este repositorio** para comenzar:  
