@@ -13,7 +13,7 @@ El objetivo principal es **practicar y reforzar conocimientos clave** de program
 > - 🚀 **Challenge 2.0: Eleva tus habilidades al siguiente nivel**  
 > [Accede aquí](https://github.com/JoseMRT2004/Python-24/blob/main/CHANLENGE-2.0.md)  
 > - 🔍 **Challenge: Domina los fundamentos**  
-> [Accede aquí](https://github.com/JoseMRT2004/Python-24/blob/main/CHANLENGE-2.0.md)
+> [Accede aquí](https://github.com/JoseMRT2004/Python-24/blob/main/CHANLENGE.md)
 
 1. **Clona este repositorio** para comenzar:  
    Ejecuta el siguiente comando en tu terminal para obtener todo el contenido:  
