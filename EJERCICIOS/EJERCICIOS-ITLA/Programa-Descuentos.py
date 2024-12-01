@@ -3,6 +3,7 @@ cliente = str(input("Introduce tu nombre: ")).strip().lower()
 total = float(input("Ingrese el total de la compra (RD$): ")) 
 tipo_producto = input("Ingrese el tipo de producto (navideños, supermercado, limpieza): ").strip().lower()
 
+
 descuento = 0
 puntos = total
 

@@ -10,10 +10,8 @@ conexion-DB/venv/*
 conexion-DB/modules/
 conexion-DB/modules/*
 
-
-
 # Ignorar archivos compilados de Python
-**/__pycache__/
+__pycache__
 *.pyc
 *.pyo
 
