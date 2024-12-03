@@ -14,6 +14,10 @@ El objetivo principal es **practicar y reforzar conocimientos clave** de program
 > [Accede aquí](https://github.com/JoseMRT2004/Python-24/blob/main/CHANLENGE-2.0.md)  
 > - 🔍 **Challenge: Domina los fundamentos**  
 > [Accede aquí](https://github.com/JoseMRT2004/Python-24/blob/main/CHANLENGE.md)
+>
+> Aquí encontrarás proyectos organizados por niveles para que elijas el que mejor se ajuste a tus habilidades:
+> - 🏗️ **Explora proyectos diarios en python**
+> [Accede aquí](https://dailypythonprojects.substack.com/p/explore-python-projects)
 
 1. **Clona este repositorio** para comenzar:  
    Ejecuta el siguiente comando en tu terminal para obtener todo el contenido:  
