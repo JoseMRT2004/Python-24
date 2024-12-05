@@ -25,9 +25,9 @@
 | 21    | Elevar al Cuadrado             | Dado un array de números, devuelve un nuevo array con los números elevados al cuadrado.                   |            |
 | 22    | Número Más Alto y Bajo         | Dado un array de números, devuelve el número más alto y el más bajo.                                       |        ✅    |
 | 23    | Agrupar Pares e Impares        | Dado un array de números, devuelve un objeto con 2 arreglos: uno con los números pares y otro con los impares. |      ✅      |
-| 24    | Clase Película                 | Crea una clase llamada Película que maneje diversos atributos y validaciones.                             |           |
-| 25    | Promedio de Calificaciones     | Calcula el promedio de un array de números representando calificaciones.                                  |            |
-| 26    | Validar Contraseña Segura      | Verifica si una contraseña cumple con criterios de seguridad (mayúsculas, números, símbolos).             |            |
+| 24    | Clase Película                 | Crea una clase llamada Película que maneje diversos atributos y validaciones.                             |  ✅      |
+| 25    | Promedio de Calificaciones     | Calcula el promedio de un array de números representando calificaciones.                                  |     ✅       |
+| 26    | Validar Contraseña Segura      | Verifica si una contraseña cumple con criterios de seguridad (mayúsculas, números, símbolos).             |       ✅      |
 | 27    | Ordenar Números                | Implementa un algoritmo para ordenar un array de números en orden ascendente.                            |            |
 | 28    | Búsqueda Binaria               | Crea una función que implemente la búsqueda binaria en un array ordenado.                                 |            |
 | 29    | Matriz Identidad               | Genera una matriz identidad de tamaño n.                                                                  |            |
