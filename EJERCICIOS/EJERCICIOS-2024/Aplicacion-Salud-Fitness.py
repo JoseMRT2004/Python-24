@@ -1,8 +1,8 @@
 print('\n*** Aplicación de Salud y Fitness ***')
 
-# Constantes
+
 META_PASOS_DIARIO = 10000
-CALORIAS_POR_PASO = 0.04 # Valor aproximado, son kilocalorias
+CALORIAS_POR_PASO = 0.04 
 
 nombre_usuario = input('\nCuál es tu nombre? ')
 pasos_diarios = int(input('\nCuántos pasos has caminado hoy? '))
@@ -11,7 +11,7 @@ meta_alcanzada = pasos_diarios >= META_PASOS_DIARIO
 meta_alcanzada_txt = 'Sí' if meta_alcanzada else 'No'
 calorias_quemadas = pasos_diarios * CALORIAS_POR_PASO
 
-# Mostramos la información
+
 
 print(f'''\nUsuario: {nombre_usuario}
 Pasos dados hoy: {pasos_diarios}

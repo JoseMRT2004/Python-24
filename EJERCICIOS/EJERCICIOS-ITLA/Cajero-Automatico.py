@@ -50,13 +50,13 @@ intentos = 3
 transacciones = []
 
 while intentos > 0:
-    pin_ingresado = input("Ingrese su PIN: ")
+    pin_ingresado = input("\nIngrese su PIN: ")
     if verificar_pin(pin_ingresado):
-        print(f"*** ¡PIN correcto! Bienvenido. ***")
+        print(f"\n*** ¡PIN correcto! Bienvenido. ***")
         break
     else:
         intentos -= 1
-        print(f"*** PIN incorrecto. Le quedan {intentos} intentos. ***")
+        print(f"\n*** PIN incorrecto. Le quedan {intentos} intentos. ***")
 
 if intentos > 0:
     while True:
