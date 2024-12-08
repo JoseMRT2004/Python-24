@@ -3,6 +3,7 @@
 .vscode/
 chanlenge/*
 chanlenge-2.0/*
+Apuntes-Cursos/*
 
 # Ignorar el entorno virtual
 conexion-DB/venv/
@@ -12,16 +13,16 @@ conexion-DB/modules/*
 
 # Ignorar archivos compilados de Python
 __pycache__
-*.pyc
-*.pyo
+.pyc
+.pyo
 
 # Ignorar carpetas de distribución de pip
 conexion-DB/venv/Lib/site-packages/pip/
 conexion-DB/venv/Lib/site-packages/pip-*/
 
 # Ignorar otros archivos generados automáticamente
-*.log
-*.tmp
+.log
+.tmp
 
 # Ignorar el directorio de scripts
 conexion-DB/venv/Scripts/

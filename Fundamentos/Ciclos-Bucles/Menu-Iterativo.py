@@ -1,11 +1,13 @@
 print('*** Sistema de Administración de Cuentas ***')
 
 salir = False
+
 while not salir:
     print(f'''Menu:
     1. Crear cuenta
     2. Eliminar cuenta
     3. Salir''')
+    
     opcion = int(input('Escoje una opción: '))
     if opcion == 1:
         print('Creando tu cuenta...\n')
