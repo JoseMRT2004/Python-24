@@ -22,7 +22,7 @@
 | 18    | Contar Vocales y Consonantes   | Cuenta el número de vocales y consonantes en una cadena de texto.                                          |     ✅       |
 | 19    | Contar vocales             | Contar las vocales que dentro de un texto.                                                                    |      ✅      |
 | 20    | Validar Email                  | Valida si un texto es un email válido.                                                                     |     ✅       |
-| 21    | Elevar al Cuadrado             | Dado un array de números, devuelve un nuevo array con los números elevados al cuadrado.                   |            |
+| 21    | Elevar al Cuadrado             | Dado un array de números, devuelve un nuevo array con los números elevados al cuadrado.                   |        ✅    |
 | 22    | Número Más Alto y Bajo         | Dado un array de números, devuelve el número más alto y el más bajo.                                       |        ✅    |
 | 23    | Agrupar Pares e Impares        | Dado un array de números, devuelve un objeto con 2 arreglos: uno con los números pares y otro con los impares. |      ✅      |
 | 24    | Clase Película                 | Crea una clase llamada Película que maneje diversos atributos y validaciones.                             |  ✅      |
@@ -30,8 +30,8 @@
 | 26    | Validar Contraseña Segura      | Verifica si una contraseña cumple con criterios de seguridad (mayúsculas, números, símbolos).             |       ✅      |
 | 27    | Ordenar Números                | Implementa un algoritmo para ordenar un array de números en orden ascendente.                            |            |
 | 28    | Búsqueda Binaria               | Crea una función que implemente la búsqueda binaria en un array ordenado.                                 |            |
-| 29    | Matriz Identidad               | Genera una matriz identidad de tamaño n.                                                                  |            |
-| 30    | Multiplicación de Matrices     | Programa una función que multiplique dos matrices dadas.                                                  |            |
+| 29    | Matriz Identidad               | Genera una matriz identidad de tamaño n.                                                                  |   ✅         |
+| 30    | Multiplicación de Matrices     | Programa una función que multiplique dos matrices dadas.                                                  |    ✅        |
 | 31    | Validar Fecha                  | Verifica si una fecha ingresada tiene un formato válido (por ejemplo, DD/MM/AAAA).                        |            |
 | 32    | Generador de Contraseñas       | Crea un generador de contraseñas aleatorias basadas en criterios personalizados.                          |            |
 | 33    | Cálculo de Hipotenusa          | Dado dos lados de un triángulo rectángulo, calcula la hipotenusa usando el teorema de Pitágoras.          |            |
