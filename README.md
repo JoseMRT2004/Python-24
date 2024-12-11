@@ -20,9 +20,10 @@ El objetivo principal es **practicar y reforzar conocimientos clave** de program
 > [Accede aquí](https://dailypythonprojects.substack.com/p/explore-python-projects)
 
 1. **Clona este repositorio** para comenzar:  
-   Ejecuta el siguiente comando en tu terminal para obtener todo el contenido:  
+   Ejecuta el siguiente comando en tu terminal para obtener todo el contenido:
+   
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/JoseMRT2004/Python-24.git
    ```  
 
 2. **Explora los ejercicios disponibles**:  
