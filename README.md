@@ -22,7 +22,7 @@ El objetivo principal es **practicar y reforzar conocimientos clave** de program
 1. **Clona este repositorio** para comenzar:  
    Ejecuta el siguiente comando en tu terminal para obtener todo el contenido:
    
-   ```bash
+   ```Power Shell
    git clone https://github.com/JoseMRT2004/Python-24.git
    ```  
 
