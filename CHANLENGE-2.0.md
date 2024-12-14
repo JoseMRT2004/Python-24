@@ -33,9 +33,9 @@
 | 29    | Matriz Identidad               | Genera una matriz identidad de tamaño n.                                                                  |   ✅         |
 | 30    | Multiplicación de Matrices     | Programa una función que multiplique dos matrices dadas.                                                  |    ✅        |
 | 31    | Validar Fecha                  | Verifica si una fecha ingresada tiene un formato válido (por ejemplo, DD/MM/AAAA).                        |        ✅     |
-| 32    | Generador de Contraseñas       | Crea un generador de contraseñas aleatorias basadas en criterios personalizados.                          |            |
-| 33    | Cálculo de Hipotenusa          | Dado dos lados de un triángulo rectángulo, calcula la hipotenusa usando el teorema de Pitágoras.          |            |
-| 34    | Calcular Media, Moda y Mediana | Escribe funciones para calcular la media, la moda y la mediana de un conjunto de datos.                   |            |
+| 32    | Generador de Contraseñas       | Crea un generador de contraseñas aleatorias basadas en criterios personalizados.                          |       ✅      |
+| 33    | Cálculo de Hipotenusa          | Dado dos lados de un triángulo rectángulo, calcula la hipotenusa usando el teorema de Pitágoras.          |        ✅    |
+| 34    | Calcular Media, Moda y Mediana | Escribe funciones para calcular la media, la moda y la mediana de un conjunto de datos.                   |    ✅        |
 | 35    | Crear Clase Rectángulo         | Implementa una clase Rectángulo con métodos para calcular el área y el perímetro.                       |            |
 | 36    | Palabras Más Largas            | Dado un texto, encuentra las palabras más largas y devuelve un array con ellas.                           |            |
 | 37    | Ordenar Cadenas por Longitud   | Ordena un array de cadenas según su longitud, de menor a mayor.                                           |            |

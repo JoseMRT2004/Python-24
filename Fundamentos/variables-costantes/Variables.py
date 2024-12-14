@@ -30,7 +30,7 @@ print(mi_booleano)
 
 # Ejemplo de variable (list)
 mi_lista = [1, 'Hola', 10,2, 4, 5]
-print(mi_lista[3])
+print(mi_lista[-3])
 
 # Ejemplo de variable (dict)
 mi_diccionario = {"nombre": "Maria", "edad": 24}
