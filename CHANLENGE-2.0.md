@@ -41,12 +41,12 @@
 | 37    | Ordenar Cadenas por Longitud   | Ordena un array de cadenas según su longitud, de menor a mayor.                                           |       ✅   |
 | 38    | Sumar Dígitos de un Número     | Crea una función que sume los dígitos de un número entero positivo.                                       |         ✅   |
 | 39    | Conversión de Horas            | Dada una cantidad de minutos, convierte a formato de horas y minutos (hh:mm).                             |          ✅  |
-| 40    | Tabla de Multiplicar           | Genera una tabla de multiplicar para un número dado hasta un límite definido.                             |            |
-| 41    | Validar Secuencia Numérica     | Determina si los números en un array forman una secuencia ascendente o descendente continua.              |            |
-| 42    | Encontrar Elemento Más Frecuente | Dado un array, encuentra el elemento que más veces se repite.                                              |            |
-| 43    | Suma de Números Positivos      | Suma únicamente los números positivos de un array.                                                        |            |
-| 44    | Filtrar Palabras Prohibidas    | Dado un texto y una lista de palabras, filtra las palabras prohibidas y devuelve el texto limpio.         |            |
-| 45    | Clase Vehículo                 | Crea una clase Vehículo con atributos como marca, modelo, año y métodos para arrancar y detener el vehículo. |            |
+| 40    | Tabla de Multiplicar           | Genera una tabla de multiplicar para un número dado hasta un límite definido.                             |        ✅    |
+| 41    | Validar Secuencia Numérica     | Determina si los números en un array forman una secuencia ascendente o descendente continua.              |         ✅   |
+| 42    | Encontrar Elemento Más Frecuente | Dado un array, encuentra el elemento que más veces se repite.                                              |     ✅       |
+| 43    | Suma de Números Positivos      | Suma únicamente los números positivos de un array.                                                        |         ✅    |
+| 44    | Filtrar Palabras Prohibidas    | Dado un texto y una lista de palabras, filtra las palabras prohibidas y devuelve el texto limpio.         |         ✅   |
+| 45    | Clase Vehículo                 | Crea una clase Vehículo con atributos como marca, modelo, año y métodos para arrancar y detener el vehículo. |        ✅     |
 | 46    | Validar Palíndromo con Espacios | Crea una función que determine si una frase completa es un palíndromo, ignorando espacios y mayúsculas.    |            |
 
 
