@@ -47,6 +47,4 @@ El objetivo principal es **practicar y reforzar conocimientos clave** de program
  - [] 
  - []
    
-* _Nombres de los que completaron el reto_ 📃
-   
 </details>
