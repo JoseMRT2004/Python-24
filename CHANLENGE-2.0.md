@@ -36,11 +36,11 @@
 | 32    | Generador de Contraseñas       | Crea un generador de contraseñas aleatorias basadas en criterios personalizados.                          |       ✅      |
 | 33    | Cálculo de Hipotenusa          | Dado dos lados de un triángulo rectángulo, calcula la hipotenusa usando el teorema de Pitágoras.          |        ✅    |
 | 34    | Calcular Media, Moda y Mediana | Escribe funciones para calcular la media, la moda y la mediana de un conjunto de datos.                   |    ✅        |
-| 35    | Crear Clase Rectángulo         | Implementa una clase Rectángulo con métodos para calcular el área y el perímetro.                       |            |
-| 36    | Palabras Más Largas            | Dado un texto, encuentra las palabras más largas y devuelve un array con ellas.                           |            |
-| 37    | Ordenar Cadenas por Longitud   | Ordena un array de cadenas según su longitud, de menor a mayor.                                           |            |
-| 38    | Sumar Dígitos de un Número     | Crea una función que sume los dígitos de un número entero positivo.                                       |            |
-| 39    | Conversión de Horas            | Dada una cantidad de minutos, convierte a formato de horas y minutos (hh:mm).                             |            |
+| 35    | Crear Clase Rectángulo         | Implementa una clase Rectángulo con métodos para calcular el área y el perímetro.                       |        ✅     |
+| 36    | Palabras Más Largas            | Dado un texto, encuentra las palabras más largas y devuelve un array con ellas.                           |     ✅       |
+| 37    | Ordenar Cadenas por Longitud   | Ordena un array de cadenas según su longitud, de menor a mayor.                                           |       ✅   |
+| 38    | Sumar Dígitos de un Número     | Crea una función que sume los dígitos de un número entero positivo.                                       |         ✅   |
+| 39    | Conversión de Horas            | Dada una cantidad de minutos, convierte a formato de horas y minutos (hh:mm).                             |          ✅  |
 | 40    | Tabla de Multiplicar           | Genera una tabla de multiplicar para un número dado hasta un límite definido.                             |            |
 | 41    | Validar Secuencia Numérica     | Determina si los números en un array forman una secuencia ascendente o descendente continua.              |            |
 | 42    | Encontrar Elemento Más Frecuente | Dado un array, encuentra el elemento que más veces se repite.                                              |            |
