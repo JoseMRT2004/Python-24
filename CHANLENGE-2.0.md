@@ -50,7 +50,7 @@
 | 46    | Validar Palíndromo con Espacios | Crea una función que determine si una frase completa es un palíndromo, ignorando espacios y mayúsculas.    |     ✅       |
 
 
-### 🎮 Clase Juego
+### 🎮 Clase Juego ✅
 
 _La clase Juego debe tener los siguientes atributos y métodos:_
 
