@@ -47,7 +47,7 @@
 | 43    | Suma de Números Positivos      | Suma únicamente los números positivos de un array.                                                        |         ✅    |
 | 44    | Filtrar Palabras Prohibidas    | Dado un texto y una lista de palabras, filtra las palabras prohibidas y devuelve el texto limpio.         |         ✅   |
 | 45    | Clase Vehículo                 | Crea una clase Vehículo con atributos como marca, modelo, año y métodos para arrancar y detener el vehículo. |        ✅     |
-| 46    | Validar Palíndromo con Espacios | Crea una función que determine si una frase completa es un palíndromo, ignorando espacios y mayúsculas.    |            |
+| 46    | Validar Palíndromo con Espacios | Crea una función que determine si una frase completa es un palíndromo, ignorando espacios y mayúsculas.    |     ✅       |
 
 
 ### 🎮 Clase Juego
