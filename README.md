@@ -21,7 +21,7 @@ El objetivo principal es **practicar y reforzar conocimientos clave** de program
 >
 > Aquí puedes encontrar algunas notas que facilitaran el aprendizaje de los conceptos:
 > - 📃 **Notas sobre conceptos fundaméntales**
-> [Accede aquí](Python-3d3f55f171d94256aff5f8cdea3a4509)
+> [Accede aquí](https://www.notion.so/Python-3d3f55f171d94256aff5f8cdea3a4509?pvs=4)
 
 1. **Clona este repositorio** para comenzar:  
    Ejecuta el siguiente comando en tu terminal para obtener todo el contenido:
