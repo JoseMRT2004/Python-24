@@ -2,9 +2,9 @@
 .idea/
 .vscode/
 
-# Proyecto
-chanlenge/*
-chanlenge-2.0/*
+# Directorios con los ejercicios 
+CHANLENGE/*
+CHANLENGE-2.0/*
 
 # Entorno virtual y Python
 conexion-DB/venv/
