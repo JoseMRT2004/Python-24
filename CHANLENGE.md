@@ -2,8 +2,8 @@
 ### 📝 **Ejercicio: Funciones Básicas y Clases**
 | **#** | **Ejercicio**                  | **Descripción**                                                                                           | **Estado** |
 |-------|---------------------------------|-----------------------------------------------------------------------------------------------------------|------------|
-| 1     | Contar Caracteres              | Programa una función que cuente el número de caracteres en una cadena.                                    |            |
-| 2     | Recortar Texto                 | Programa una función que recorte un texto según el número de caracteres indicado.                         |            |
+| 1     | Contar Caracteres              | Programa una función que cuente el número de caracteres en una cadena.                                    |     ✅       |
+| 2     | Recortar Texto                 | Programa una función que recorte un texto según el número de caracteres indicado.                         |             |
 | 3     | Separar Texto                  | Convierte un string en un array de textos separados por un carácter dado.                                  |            |
 | 4     | Repetir Texto                  | Repite un texto un número determinado de veces.                                                           |            |
 | 5     | Invertir Texto                 | Invierte las palabras de una cadena de texto.                                                             |            |
