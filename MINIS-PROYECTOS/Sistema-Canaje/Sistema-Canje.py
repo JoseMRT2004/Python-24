@@ -1,20 +1,20 @@
-# Sistema de puntos canjeables por objetos
+''' Sistema de puntos canjeables por objetos
 
-# Objetivos:
-#   - Crear un array para almacenar los puntos del usuario.  ✅
-#   - Convertir los valores del array a enteros para realizar operaciones matemáticas. ✅
-#   - Implementar una condicional para comparar los puntos del usuario con el costo de los objetos. ✅
-#   - Restar los puntos utilizados al total del usuario y mostrar el nuevo saldo. ✅
-#   - Permitir al usuario seleccionar un objeto y realizar el canje. ✅
-#   - Agragarle un usuario que pueda modificar los objetos los descuentos y los Productos ademas modificar el valor de los puntos. ✅
+Objetivos:
+  - Crear un array para almacenar los puntos del usuario.  ✅
+  - Convertir los valores del array a enteros para realizar operaciones matemáticas. ✅
+  - Implementar una condicional para comparar los puntos del usuario con el costo de los objetos. ✅
+  - Restar los puntos utilizados al total del usuario y mostrar el nuevo saldo. ✅
+  - Permitir al usuario seleccionar un objeto y realizar el canje. ✅
+  - Agragarle un usuario que pueda modificar los objetos los descuentos y los Productos ademas modificar el valor de los puntos. ✅
 
 
-# Consideraciones adicionales:
-#   - **Validación de datos:** Asegurarse de que el usuario ingrese valores válidos (por ejemplo, números enteros positivos). ✅
-#   - **Mensajes de error:** Informar al usuario si no tiene suficientes puntos para realizar un canje. ✅
-#   - **Interfaz de usuario:** Diseñar una interfaz intuitiva para que el usuario pueda navegar fácilmente por las opciones de canje. ✅
-#   - **Persistencia de datos:** Considerar cómo almacenar los puntos del usuario de forma persistente (por ejemplo, en un archivo o base de datos).
-#   - **Escalabilidad:** Planificar cómo agregar nuevos objetos al catálogo sin modificar mucho el código. ✅
+Consideraciones adicionales:
+  - **Validación de datos:** Asegurarse de que el usuario ingrese valores válidos (por ejemplo, números enteros positivos). ✅
+  - **Mensajes de error:** Informar al usuario si no tiene suficientes puntos para realizar un canje. ✅
+  - **Interfaz de usuario:** Diseñar una interfaz intuitiva para que el usuario pueda navegar fácilmente por las opciones de canje. ✅
+  - **Persistencia de datos:** Considerar cómo almacenar los puntos del usuario de forma persistente (por ejemplo, en un archivo o base de datos).
+  - **Escalabilidad:** Planificar cómo agregar nuevos objetos al catálogo sin modificar mucho el código. ✅ '''
 
 
 

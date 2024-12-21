@@ -18,6 +18,10 @@ El objetivo principal es **practicar y reforzar conocimientos clave** de program
 > Aquí encontrarás proyectos organizados por niveles para que elijas el que mejor se ajuste a tus habilidades:
 > - 🏗️ **Explora proyectos diarios en python**
 > [Accede aquí](https://dailypythonprojects.substack.com/p/explore-python-projects)
+>
+> Aquí puedes encontrar algunas notas que facilitaran el aprendizaje de los conceptos:
+> - 📃 **Notas sobre conceptos fundaméntales**
+> [Accede aquí](https://www.notion.so/Python-3d3f55f171d94256aff5f8cdea3a4509?pvs=4)
 
 1. **Clona este repositorio** para comenzar:  
    Ejecuta el siguiente comando en tu terminal para obtener todo el contenido:
