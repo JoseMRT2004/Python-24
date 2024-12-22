@@ -43,6 +43,7 @@ def comodin():
             pausar()
 
 def jugar():
+    '''Logica principal del juego'''
     global intento
     cls()
 
