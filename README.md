@@ -1,4 +1,4 @@
-# 🧠💻 **Ejercicios de Programación y Aprendizaje de Python**
+# 🧠💻 **Ejercicios de Programación y Aprendizaje de Python.**
 
 ¡Bienvenid@ a este repositorio de ejercicios de lógica de programación! 🌟 Este espacio está diseñado para **aprender y practicar** conceptos fundamentales de programación y afianzar habilidades en **Python**. 🐍  
 
