@@ -5,7 +5,6 @@ def fibonacci_recursiva(numero):
         fib1 = fibonacci_recursiva(numero - 1)
         fib2 = fibonacci_recursiva(numero - 2)
         result = fib1 + fib2
-        print(f"{fib1} + {fib2} = {result}")
         return result
 
-fibonacci_recursiva(10)
+print(fibonacci_recursiva(10))
