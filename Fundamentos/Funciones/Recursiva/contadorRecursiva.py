@@ -2,10 +2,10 @@
 
 def contadorRecursivo(numero):
     if numero == 1: 
-        print(numero, end=' ')
+        print(numero)
     else:
         contadorRecursivo(numero - 1)
-        print(numero, end=' ')
+        print(numero)
         
 
 contadorRecursivo(10)
