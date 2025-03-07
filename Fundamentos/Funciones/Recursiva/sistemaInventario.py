@@ -53,32 +53,30 @@ def salirDelSistema():
 def opcionNoValida():
     print('Opción no válida, por favor intenta de nuevo.')
 
-def main():
-    while True:
-        mostrarMenu()
-        opcion = int(input(' Ingresa La opcion Deseada → '))
-        
-        if opcion == 1:
-            limpiarPantalla()
-            mostrarInventario()
-        elif opcion == 2:
-            limpiarPantalla()
-            agregarProducto(
-                ID=input('Ingresa el ID del producto: '),
-                Nombre=input('Ingresa el nombre del producto: '),
-                Precio=float(input('Ingresa el precio del producto: ')),
-                Cantidad=int(input('Ingresa la cantidad del producto: '))
-            )
-        elif opcion == 3:
-            limpiarPantalla()
-            print(buscarProductoID(input('Ingresa el ID del producto a buscar: ')) or
-                'Producto no encontrado.')
-        elif opcion == 4:
-            salirDelSistema()
-            limpiarPantalla()
-        else:
-            opcionNoValida()
-            limpiarPantalla()
-
 if __name__ == "__main__":
-    main()
+    def main():
+        while True:
+            mostrarMenu()
+            opcion = int(input(' Ingresa La opcion Deseada → '))
+            
+            if opcion == 1:
+                limpiarPantalla()
+                mostrarInventario()
+            elif opcion == 2:
+                limpiarPantalla()
+                agregarProducto(
+                    ID=input('Ingresa el ID del producto: '),
+                    Nombre=input('Ingresa el nombre del producto: '),
+                    Precio=float(input('Ingresa el precio del producto: ')),
+                    Cantidad=int(input('Ingresa la cantidad del producto: '))
+                )
+            elif opcion == 3:
+                limpiarPantalla()
+                print(buscarProductoID(input('Ingresa el ID del producto a buscar: ')) or
+                    'Producto no encontrado.')
+            elif opcion == 4:
+                salirDelSistema()
+                limpiarPantalla()
+            else:
+                opcionNoValida()
+                limpiarPantalla()
