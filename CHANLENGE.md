@@ -12,7 +12,7 @@
 | 8     | Eliminar Patrón                | Elimina un patrón específico de caracteres en un texto.                                                   |    🚩        |
 | 9     | Número Aleatorio               | Programa una función que obtenga un número aleatorio entre 501 y 600.                                     |        🚩    |
 | 10    | Número Capicúa                 | Evalúa si un número es capicúa (se lee igual en ambos sentidos).                                          |     🚩       |
-| 11    | Factorial de un Número         | Calcula el factorial de un número (producto de todos los enteros positivos hasta n).                     |          🚩  |
+| 11    | Factorial de un Número         | Calcula el factorial de un número (producto de todos los enteros positivos hasta n).                     |          ✅ Con-Recurcion   |
 | 12    | Número Primo                   | Determina si un número es primo o no.                                                                      |     🚩       |
 | 13    | Número Par o Impar             | Determina si un número es par o impar.                                                                     |    🚩        |
 | 14    | Conversión de Temperatura      | Convierte grados Celsius a Fahrenheit y viceversa.                                                        |        🚩    |
@@ -22,10 +22,10 @@
 | 18    | Contar Vocales y Consonantes   | Cuenta el número de vocales y consonantes en una cadena de texto.                                          |      🚩      |
 | 19    | Validar Nombre                 | Valida si un texto es un nombre válido.                                                                    |      🚩      |
 | 20    | Validar Email                  | Valida si un texto es un email válido.                                                                     |         🚩   |
-| 21    | Elevar al Cuadrado             | Dado un array de números, devuelve un nuevo array con los números elevados al cuadrado.                   |    🚩        |
+| 21    | Elevar al Cuadrado             | Dado un array de números, devuelve un nuevo array con los números elevados al cuadrado.                   |    ✅ Con-Recurcion        |
 | 22    | Número Más Alto y Bajo         | Dado un array de números, devuelve el número más alto y el más bajo.                                       |    🚩        |
-| 23    | Agrupar Pares e Impares        | Dado un array de números, devuelve un objeto con 2 arreglos: uno con los números pares y otro con los impares. |     🚩       |
-| 24    | Clase Película                 | Crea una clase llamada Película que maneje diversos atributos y validaciones.                             |      🚩      |
+| 23    | Agrupar Pares e Impares        | Dado un array de números, devuelve un objeto con 2 arreglos: uno con los números pares y otro con los impares. |     ✅        |
+| 24    | Clase Película                 | Crea una clase llamada Película que maneje diversos atributos y validaciones.                             |      ✅      |
 
 ---
 
