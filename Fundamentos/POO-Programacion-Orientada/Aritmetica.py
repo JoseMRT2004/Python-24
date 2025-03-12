@@ -12,7 +12,7 @@ Ejercicio: Creación de la Clase Aritmética
      - multiplicar: multiplica los dos operandos
      - dividir: divide el primer operando por el segundo, comprobando que el divisor no sea cero
      '''
-     
+
      
 class Aritmetica:
     def __init__(self,operador1,operador2):
