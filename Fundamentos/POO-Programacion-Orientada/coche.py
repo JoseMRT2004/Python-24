@@ -4,35 +4,35 @@
      
 class Coche:
     def __init__(self, marca='Sin Asignar', modelo='Sin Asignar', color='Sin Asignar'):
-        self.__marca = marca
-        self.__modelo = modelo
-        self.__color = color
+        self._marca = marca
+        self._modelo = modelo
+        self._color = color
 
     def get_marca(self):
-        return self.__marca
+        return self._marca
 
     def get_modelo(self):
-        return self.__modelo
+        return self._modelo
 
     def get_color(self):
-        return self.__color
+        return self._color
 
     def set_marca(self, marca):
-        self.__marca = marca
+        self._marca = marca
 
     def set_modelo(self, modelo):
-        self.__modelo = modelo
+        self._modelo = modelo
 
     def set_color(self, color):
-        self.__color = color
+        self._color = color
 
     def conducir(self):
         print(f'''
           - Conduciendo el Coche -
 
-            Marca: {self.__marca}
-            Modelo: {self.__modelo}
-            Color: {self.__color}''')
+            Marca: {self._marca}
+            Modelo: {self._modelo}
+            Color: {self._color}''')
 
 
 if __name__ == '__main__':
@@ -40,9 +40,11 @@ if __name__ == '__main__':
     coche2 = Coche('Toyota', 'Corolla', 'Rojo')
     coche3 = Coche('Ford', 'Mustang', 'Blanco')
 
-    coche1.set_marca('Bugatti')
-    coche1.set_modelo('Chiron')
-    coche1.set_color('Negro')
+
+    coche1.conducir()
+    coche1.set_marca('Toyota')
+    coche1.set_modelo('4Runner')
+    coche1.set_color('Blanco')
 
     coche1.conducir()
     coche2.conducir()
