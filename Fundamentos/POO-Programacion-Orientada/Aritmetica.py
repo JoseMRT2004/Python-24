@@ -1,63 +1,65 @@
-'''
-Ejercicio: Creación de la Clase Aritmética
-
-- Definir la Clase Aritmética:
-   - Crear la clase Aritmetica
-   - Agregar dos atributos:
-     - ooperando1: un valor de tipo entero
-     - ooperando2: un valor de tipo entero
-- Agregar los siguientes métodos:
-     - sumar: suma los dos operandos
-     - restar: resta el segundo operando del primero
-     - multiplicar: multiplica los dos operandos
-     - dividir: divide el primer operando por el segundo, comprobando que el divisor no sea cero
-     '''
-
-     
 class Aritmetica:
-    def __init__(self,operador1,operador2):
-        self.operando1 = operador1
-        self.operando2 = operador2
-        
+    def __init__(self, operador1=None, operador2=None):
+        self.__operando1 = operador1
+        self.__operando2 = operador2
+
+    @property
+    def operando1(self):
+        return self.__operando1
+
+
+    @property
+    def operando2(self):
+        return self.__operando2
+
+    @property
     def suma(self):
-                return self.operando1 + self.operando2
-            
+        return self.__operando1 + self.__operando2
+
+    @property
     def resta(self):
-                return self.operando1 - self.operando2
-            
+        return self.__operando1 - self.__operando2
+
+    @property
     def multiplica(self):
-                return self.operando1 * self.operando2
-            
-    def ponencia(self):
-                return self.operando1 ** self.operando2
-            
+        return self.__operando1 * self.__operando2
+
+    @property
     def divide(self):
-              if self.operando2 != 0:
-                 return self.operando1 / self.operando2
-              else:
-                 return "Error: División por cero"
-             
-             
-             
-if __name__ == '__main__': # Si tu estas aquí, se ejecuta, si no lo hace. The end 
-            
-    # Creación del primer objeto
+        if self.__operando2 != 0:
+            return self.__operando1 / self.__operando2
+        else:
+            return "Error: División por cero"
+
+    @property
+    def potencia(self):
+        return self.__operando1 ** self.__operando2
+
+    @operando2.setter
+    def operando2(self, valor):
+        self.__operando2 = valor
+
+    @operando1.setter
+    def operando1(self, valor):
+        self.__operando1 = valor
+
+if __name__ == '__main__':
+    
     aritmetica1 = Aritmetica(5, 3)
+    aritmetica2 = Aritmetica()
+    
+    aritmetica2.operando1 = 45
+    aritmetica2.operando2 = 5
+    aritmetica1.operando2 = 5
+    
+    
 
     output = f'''
-    Suma: {aritmetica1.suma()}
-    Resta: {aritmetica1.resta()}
-    Muntiplicacion: {aritmetica1.multiplica()}
-    Divicion: {aritmetica1.divide()}
-    Pontenciacion: {aritmetica1.ponencia()}
+    Suma: {aritmetica2.suma}
+    Resta: {aritmetica1.resta}
+    Multiplicacion: {aritmetica2.multiplica}
+    Division: {aritmetica1.divide}
+    Potenciacion: {aritmetica1.potencia}
     '''
 
     print(output)
-
-'''
-Explicacion teorica tecnica: 
-
-La construcción if __name__ == '__main__': 
-es muy útil para asegurar que cierto código solo se ejecute 
-cuando el script se ejecuta directamente,
-no cuando se importa como un módulo en otro script.'''
