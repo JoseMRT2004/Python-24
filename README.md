@@ -9,7 +9,7 @@ El objetivo principal es **practicar y reforzar conocimientos clave** de program
 ## ⚙️ **Cómo empezar**
 
 > [!TIP]  
-> Aquí encontrarás listas de ejercicios organizados en **dos etapas** con dificultad variable:  
+> Aquí encontrarás listas de ejercicios organizados en **dos etapas** con dificultad variable. Ademas de la seccon de **POO** papra tracticar con Programacion Orientada a Objetos :  
 > - 🚀 **Challenge 2.0: Eleva tus habilidades al siguiente nivel**  
 > [Accede aquí](https://github.com/JoseMRT2004/Python-24/blob/main/CHANLENGE-2.0.md)  
 > - 🔍 **Challenge: Domina los fundamentos**  
@@ -22,6 +22,11 @@ El objetivo principal es **practicar y reforzar conocimientos clave** de program
 > Aquí puedes encontrar algunas notas que facilitaran el aprendizaje de los conceptos:
 > - 📃 **Notas sobre conceptos fundaméntales**
 > [Accede aquí](https://www.notion.so/Python-3d3f55f171d94256aff5f8cdea3a4509?pvs=4)
+>
+> Aqui estan los retos por niveles centrados en la **POO** lo que recomendo es hacerlo despues de leer un poco sobre que es.
+> - 🏛️ **Challenge-POO: Aprede (POO) usandola en proyectos**
+>
+>  [Accede aquí] (/Python-24/CHALENGE-OPP.md)
 
 1. **Clona este repositorio** para comenzar:  
    Ejecuta el siguiente comando en tu terminal para obtener todo el contenido:
