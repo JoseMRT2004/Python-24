@@ -4,7 +4,7 @@ Este repositorio contiene una lista de ejercicios para practicar y dominar los c
 
 > - _Puedes resolver estos ejercicios en Python o en cualquier otro lenguaje de programación que prefieras. ¡El objetivo es aprender y practicar!_
 
-- Ejercicios para familiarizarse con los conceptos básicos de POO en Python.
+    - Ejercicios para familiarizarse con los conceptos básicos de POO en Python.
 
 | Número | Descripción | Estado |
 |---------|-------------|--------|
