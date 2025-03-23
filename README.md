@@ -4,7 +4,7 @@
 
 ## 🎯 **Objetivo**
 
-El objetivo principal es **practicar y reforzar conocimientos clave** de programación utilizando Python como herramienta principal. Aquí no buscamos soluciones perfectas, sino una oportunidad para **aprender a través de la práctica** y experimentar con el desarrollo moderno. 🛠️  
+El objetivo principal es **practicar y reforzar conocimientos clave** de programación utilizando Python como herramienta principal. Aquí no buscamos soluciones perfectas, sino una oportunidad para **aprender a través de la práctica** y experimentar con el desarrollo moderno 🛠️  
 
 ## ⚙️ **Cómo empezar**
 
