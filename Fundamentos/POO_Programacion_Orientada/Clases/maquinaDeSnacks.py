@@ -12,13 +12,13 @@
 import os
 
 class Snack:
-    def __init__(self, snack_id, nombre, precio):
-        self.snack_id = snack_id
+    def __init__(self, snackID, nombre, precio):
+        self.snackID = snackID
         self.nombre = nombre
         self.precio = precio
 
     def __str__(self):
-        return f"{self.snack_id}. {self.nombre} - ${self.precio:.2f}"
+        return f'''ID: {self.snackID} {self.nombre} → ${self.precio:.2f}'''
 
 class MaquinaDeSnacks:
     def __init__(self):
@@ -30,24 +30,23 @@ class MaquinaDeSnacks:
         ]
         self.carrito = []
 
-    def limpiar_pantalla(self):
+    def limpiarPantalla(self):
         os.system('cls' if os.name == 'nt' else 'clear')
 
-    def mostrar_snacks(self):
+    def mostrarSnacks(self):
         print("Snacks disponibles:")
         for snack in self.snacks:
             print(snack)
 
-    def agregar_al_carrito(self, snack_id):
-        self.limpiar_pantalla()
+    def agregarAlCarrito(self, snackID):
+        self.limpiarPantalla()
         for snack in self.snacks:
-            if snack.snack_id == snack_id:
+            if snack.snackID == snackID:
                 self.carrito.append(snack)
-                print(f"{snack.nombre} agregado al carrito.")
                 return
         print("ID de snack no encontrado.")
 
-    def mostrar_carrito(self):
+    def mostrarCarrito(self):
         if not self.carrito:
             print("Tu carrito está vacío.")
             return
@@ -61,18 +60,20 @@ class MaquinaDeSnacks:
 
 def main():
     maquina = MaquinaDeSnacks()
+    
     while True:
-        maquina.mostrar_snacks()
+        maquina.mostrarSnacks()
+        
         eleccion = input("Ingresa el ID del snack para comprar - [ '#' para salir ]: ")
         if eleccion.lower() == '#':
             break
         try:
-            snack_id = int(eleccion)
-            maquina.agregar_al_carrito(snack_id)
+            snackID = int(eleccion)
+            maquina.agregarAlCarrito(snackID)
         except ValueError:
             print("Entrada no válida. Por favor, ingresa un ID de snack válido.")
 
-    maquina.mostrar_carrito()
+    maquina.mostrarCarrito()
 
 if __name__ == "__main__":
     main()
