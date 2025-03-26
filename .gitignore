@@ -4,10 +4,12 @@
 
 # Directorios con los ejercicios 
 CHANLENGE/*
-CHANLENGE-2.0/*
+CHANLENGE_2.0/*
+CHANLENGE_OPP/*
+
 
 # Entorno virtual y Python
-conexion-DB/venv/
+conexion_DB/venv/
 __pycache__
 *.pyc
 *.pyo
