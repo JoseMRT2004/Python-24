@@ -23,7 +23,7 @@ class Color:
         return f'''Color: {self.color}'''
     
     
-class Cuadreado(FiguraGeometrica, Color):
+class Cuadrado(FiguraGeometrica, Color):
         
     def __init__(self, alto, ancho, area, color):
         FiguraGeometrica.__init__(self, alto, ancho)
@@ -35,6 +35,12 @@ class Cuadreado(FiguraGeometrica, Color):
     {super().__str__()}
     Area: {cuadro.CalcularArea()}
     {Color.__str__(self)}'''
-    
-cuadro = Cuadreado(4, 5, 20, "Rojo")
-print(f'{cuadro}')
+  
+if __name__  == '__main__':
+    cuadro = Cuadrado(4, 5, 20, "Rojo")
+    print(f'''{cuadro}
+        
+    -_-_-_-_-_-_-_-_-_-_-_ Jerarquía de las Superclases _-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+    {Cuadrado.mro()}''')
+
