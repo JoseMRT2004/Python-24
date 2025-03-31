@@ -86,6 +86,7 @@ class Orden:
 
 
 if __name__ == "__main__":
+    
     monitor1 = Monitor("Dell", "24 pulgadas")
     teclado1 = Teclado("Logitech", "USB")
     raton1 = Raton("HP", "Bluetooth")
