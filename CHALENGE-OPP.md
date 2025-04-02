@@ -4,68 +4,138 @@ Este repositorio contiene una lista de ejercicios para practicar y dominar los c
 
 > - _Puedes resolver estos ejercicios en Python o en cualquier otro lenguaje de programación que prefieras. ¡El objetivo es aprender y practicar!_
 
+
     - Ejercicios para familiarizarse con los conceptos básicos de POO en Python.
 
-| Número | Descripción | Estado |
-|---------|-------------|--------|
-| 1  | Crear una clase Persona con atributos nombre y edad. |  |
-| 2  | Agregar un método saludar que imprima "Hola, mi nombre es [Nombre]". |  |
-| 3  | Crear una instancia de Persona e imprimir sus atributos. |  |
-| 4  | Definir un método es_mayor_de_edad. |  |
-| 5  | Implementar un constructor __init__ con valores por defecto. |  |
-| 6  | Crear una subclase Estudiante que herede de Persona. |  |
-| 7  | Agregar un atributo carrera a la clase Estudiante. |  |
-| 8  | Sobreescribir el método saludar en Estudiante. |  |
-| 9  | Crear una lista de objetos Persona y recorrerla. |  |
-| 10 | Definir una clase Coche con atributos marca y modelo. |  |
-| 11 | Agregar un método acelerar que cambie el estado del coche. |  |
-| 12 | Implementar un método frenar. |  |
-| 13 | Crear una clase CuentaBancaria con saldo y depositar(). |  |
-| 14 | Implementar retirar() en CuentaBancaria. |  |
-| 15 | Crear una instancia de CuentaBancaria y realizar operaciones. |  |
 
+| #  | Clase/Componente     | Métodos/Acciones                  | Dificultad | Relaciones      |
+|----|----------------------|-----------------------------------|------------|-----------------|
+| 1  | Persona              | `saludar`, `es_mayor`             | ⭐         | -               |
+| 2  | Estudiante           | `estudiar`, `saludar`•            | ⭐         | Hereda Persona  |
+| 3  | Animal               | `hacer_sonido`                    | ⭐         | -               |
+| 4  | Perro                | `hacer_sonido`•, `mover_cola`     | ⭐         | Hereda Animal   |
+| 5  | Rectángulo           | `area`, `perimetro`               | ⭐         | -               |
+| 6  | Círculo              | `area`•, `perimetro`•             | ⭐⭐       | -               |
+| 7  | Producto             | `aplicar_descuento`               | ⭐         | -               |
+| 8  | Carrito              | `agregar_producto`, `total`       | ⭐⭐       | Usa Producto    |
+| 9  | Usuario              | `login`, `logout`                 | ⭐         | -               |
+| 10 | Admin                | `banear_usuario`•                 | ⭐⭐       | Hereda Usuario  |
+| 11 | Reloj                | `mostrar_hora`, `ajustar`         | ⭐         | -               |
+| 12 | Contacto             | `mostrar_info`                    | ⭐         | -               |
+| 13 | Agenda               | `agregar_contacto`, `buscar`      | ⭐⭐       | Usa Contacto    |
+| 14 | Coche                | `acelerar`, `frenar`              | ⭐⭐       | -               |
+| 15 | Moto                 | `hacer_caballito`•                | ⭐⭐       | Hereda Coche    |
+| 16 | Libro                | `abrir`, `cerrar`                 | ⭐         | -               |
+| 17 | Biblioteca           | `prestar_libro`, `devolver`       | ⭐⭐       | Usa Libro       |
+| 18 | Tarea                | `completar`, `mostrar`            | ⭐         | -               |
+| 19 | ListaTareas          | `agregar`, `eliminar`             | ⭐⭐       | Usa Tarea       |
+| 20 | CuentaBancaria       | `depositar`, `retirar`            | ⭐⭐       | -               |
 
 > - Ejercicios con herencia, encapsulamiento y polimorfismo.
 
-| Número | Descripción | Estado |
-|---------|-------------|--------|
-| 1  | Crear una clase Animal con un método hacer_sonido(). |  |
-| 2  | Crear subclases Perro y Gato que hereden de Animal. |  |
-| 3  | Sobreescribir hacer_sonido() en Perro y Gato. |  |
-| 4  | Definir una clase Empleado con un método calcular_salario(). |  |
-| 5  | Crear subclases Gerente y Programador con salario diferente. |  |
-| 6  | Implementar @property y @setter en CuentaBancaria. |  |
-| 7  | Crear una clase Figura con un método area(). |  |
-| 8  | Crear subclases Circulo y Rectangulo. |  |
-| 9  | Implementar __str__ en Persona para representación en texto. |  |
-| 10 | Crear una clase Biblioteca con una lista de libros. |  |
-| 11 | Implementar agregar_libro() y eliminar_libro(). |  |
-| 12 | Crear una clase Pedido con estado (pendiente, entregado). |  |
-| 13 | Implementar marcar_como_entregado(). |  |
-| 14 | Crear una clase Restaurante con una lista de Pedidos. |  |
-| 15 | Implementar mostrar_pedidos_pendientes(). |  |
-
+| #  | Clase/Componente     | Métodos/Acciones                  | Dificultad | Relaciones               |
+|----|----------------------|-----------------------------------|------------|--------------------------|
+| 1  | Empleado             | `calcular_salario`                | ⭐⭐⭐     | -                        |
+| 2  | Gerente              | `calcular_salario`•               | ⭐⭐⭐     | Hereda Empleado          |
+| 3  | Figura (abstracta)   | `area`, `perimetro`               | ⭐⭐⭐     | ABC                      |
+| 4  | Triángulo            | `area`•, `perimetro`•             | ⭐⭐⭐     | Hereda Figura            |
+| 5  | SistemaPago          | `procesar_pago`                   | ⭐⭐⭐     | Strategy                 |
+| 6  | Notificador          | `enviar`                          | ⭐⭐⭐     | Observer                 |
+| 7  | Pedido               | `agregar_item`, `calcular`        | ⭐⭐⭐     | Usa Producto             |
+| 8  | Restaurante          | `tomar_pedido`, `servir`          | ⭐⭐⭐     | Usa Pedido               |
+| 9  | Juego                | `iniciar`, `actualizar`           | ⭐⭐⭐     | State                    |
+| 10 | Personaje            | `mover`, `atacar`                 | ⭐⭐⭐     | Component                |
+| 11 | Arma                 | `disparar`, `recargar`            | ⭐⭐⭐     | Usa Personaje            |
+| 12 | Enemigo              | `recibir_daño`•                   | ⭐⭐⭐     | Hereda Personaje         |
+| 13 | Inventario           | `agregar`, `usar`                 | ⭐⭐⭐     | Composite                |
+| 14 | Chat                 | `enviar_mensaje`, `buscar`        | ⭐⭐⭐     | Singleton                |
+| 15 | ConexiónDB           | `conectar`, `query`               | ⭐⭐⭐     | Factory                  |
+| 16 | Logger               | `log`, `guardar`                  | ⭐⭐⭐     | Decorator                |
+| 17 | Validación           | `validar_email`, `validar_DNI`    | ⭐⭐⭐     | Static                   |
+| 18 | API                  | `get`, `post`                     | ⭐⭐⭐⭐   | Adapter                  |
+| 19 | Traductor            | `traducir`                        | ⭐⭐⭐⭐   | Proxy                    |
+| 20 | SistemaArchivos      | `crear`, `eliminar`               | ⭐⭐⭐⭐   | Facade                   |
 
 
 > - Ejercicios con patrones de diseño y conceptos avanzados de POO.
 
-| Número | Descripción | Estado |
-|---------|-------------|--------|
-| 1  | Implementar un Singleton en Python. |  |
-| 2  | Crear una clase Logger que siga el patrón Singleton. |  |
-| 3  | Implementar el patrón Factory Method. |  |
-| 4  | Crear un sistema de gestión de usuarios con Observer. |  |
-| 5  | Implementar __iter__ y __next__ en una clase personalizada. |  |
-| 6  | Crear una clase Producto con @classmethod. |  |
-| 7  | Usar @staticmethod para una función de utilidad. |  |
-| 8  | Implementar una jerarquía con ABC y @abstractmethod. |  |
-| 9  | Crear una clase Vehiculo con métodos abstractos. |  |
-| 10 | Crear una clase Juego con estado y patrón Estado. |  |
-| 11 | Implementar decoradores en una clase. |  |
-| 12 | Crear una API con Flask y una clase Usuario. |  |
-| 13 | Implementar un Gestor de Configuración con JSON. |  |
-| 14 | Crear una Cola usando deque y clases. |  |
-| 15 | Implementar multiprocesamiento con POO. |  |
+| #  | Clase/Componente     | Métodos/Acciones                  | Dificultad | Patrón/Concepto          |
+|----|----------------------|-----------------------------------|------------|--------------------------|
+| 1  | MetaClase            | `__new__`, `__prepare__`          | ⭐⭐⭐⭐⭐ | Metaclases               |
+| 2  | ThreadPool           | `submit`, `map`                   | ⭐⭐⭐⭐⭐ | Concurrencia             |
+| 3  | ServidorAsync        | `start`, `handle_request`         | ⭐⭐⭐⭐⭐ | Async/Await              |
+| 4  | ORM                  | `save`, `query`                   | ⭐⭐⭐⭐⭐ | SQLAlchemy-like          |
+| 5  | WebScraper           | `scrape`, `parse`                 | ⭐⭐⭐⭐⭐ | Multihilo                |
+| 6  | JITCompiler          | `compile`, `optimize`             | ⭐⭐⭐⭐⭐ | Decoradores avanzados    |
+| 7  | Blockchain           | `add_block`, `validate`           | ⭐⭐⭐⭐⭐ | Encadenamiento           |
+| 8  | NeuralNetwork        | `train`, `predict`                | ⭐⭐⭐⭐⭐ | POO + ML                 |
+| 9  | Microservicio        | `deploy`, `scale`                 | ⭐⭐⭐⭐⭐ | Arquitectura             |
+| 10 | GraphQL              | `resolve`, `execute`              | ⭐⭐⭐⭐⭐ | Patrón Resolver          |
+| 11 | CacheManager         | `get`, `set`, `invalidate`        | ⭐⭐⭐⭐⭐ | Flyweight                |
+| 12 | DSL                  | `parse`, `evaluate`               | ⭐⭐⭐⭐⭐ | Lenguaje específico      |
+| 13 | LoadBalancer         | `add_server`, `route_request`     | ⭐⭐⭐⭐⭐ | Round-Robin              |
+| 14 | PubSub               | `subscribe`, `publish`            | ⭐⭐⭐⭐⭐ | Mensajería               |
+| 15 | CircuitBreaker       | `call`, `reset`                   | ⭐⭐⭐⭐⭐ | Tolerancia fallos        |
+| 16 | DataPipeline         | `extract`, `transform`, `load`    | ⭐⭐⭐⭐⭐ | ETL                      |
+| 17 | RecommendationEngine | `train_model`, `get_recommendations` | ⭐⭐⭐⭐⭐ | Machine Learning        |
+| 18 | EncryptionService    | `encrypt`, `decrypt`              | ⭐⭐⭐⭐⭐ | Seguridad                |
+| 19 | QuantumSimulator     | `run_circuit`                     | ⭐⭐⭐⭐⭐ | (Bonus teórico)          |
+| 20 | AIAgent              | `perceive`, `act`, `learn`        | ⭐⭐⭐⭐⭐ | IA                       |
 
-- ## Desafío de Lógica
-**Problema:** _Hay tres interruptores en una habitación. Solo uno de ellos enciende una bombilla en una habitación contigua. Puedes entrar a la habitación de la bombilla una sola vez. ¿Cómo averiguar cuál interruptor la enciende?_
+## 🧩 Desafío de Lógica POO
+
+**Problema:** Hay tres interruptores en una habitación. Solo uno enciende una bombilla en otra habitación. Puedes entrar una sola vez. 
+
+```python
+class AcertijoInterruptores:
+    def __init__(self):
+        # Estados iniciales de los 3 interruptores
+        self.interruptores = {
+            1: False,
+            2: False, 
+            3: False
+        }
+        self.bombilla = Bombilla()
+    
+    def resolver_acertijo(self):
+        """
+        ¡Completa este método para resolver el acertijo!
+        Debes manipular los interruptores estratégicamente
+        y verificar el estado de la bombilla para determinar
+        cuál interruptor la controla.
+        
+        Pistas:
+        1. Puedes usar time.sleep() para simular esperas
+        2. La bombilla tiene propiedades observables
+        3. Solo un interruptor es el correcto
+        """
+        # ¡Tu implementación va aquí!
+        pass
+
+class Bombilla:
+    def __init__(self):
+        self.encendida = False
+        self.temperatura = 25  # Temperatura ambiente en °C
+    
+    def actualizar_estado(self, interruptor_activo):
+        """
+        Actualiza el estado físico de la bombilla
+        según el interruptor que esté activo actualmente.
+        """
+        # ¡Completa esta lógica!
+        pass
+    
+    def obtener_estado(self):
+        """
+        Devuelve un dict con el estado observable:
+        - encendida: bool
+        - temperatura: int
+        - descripcion: str
+        """
+        # ¡Implementa esta observación clave!
+        return {
+            "encendida": False,
+            "temperatura": 25,
+            "descripcion": "Implementar según estado real"
+        }```
+    
