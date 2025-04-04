@@ -8,9 +8,9 @@ Este repositorio contiene una lista de ejercicios para practicar y dominar los c
     - Ejercicios para familiarizarse con los conceptos básicos de POO en Python.
 
 
-| #  | Clase/Componente     | Métodos/Acciones                  | Dificultad | Relaciones      |
-|----|----------------------|-----------------------------------|------------|-----------------|
-| 1  | Persona              | `saludar`, `es_mayor`             | ⭐         | -               |
+| #  | Clase/Componente     | Métodos/Acciones                  | Dificultad | Relaciones      | Estado |
+|----|----------------------|-----------------------------------|------------|-----------------|--------|
+| 1  | Persona              | `saludar`, `es_mayor`             | ⭐         | -               |   ✅  |
 | 2  | Estudiante           | `estudiar`, `saludar`•            | ⭐         | Hereda Persona  |
 | 3  | Animal               | `hacer_sonido`                    | ⭐         | -               |
 | 4  | Perro                | `hacer_sonido`•, `mover_cola`     | ⭐         | Hereda Animal   |
