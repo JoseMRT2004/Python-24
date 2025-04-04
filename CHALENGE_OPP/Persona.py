@@ -25,9 +25,16 @@ class Persona:
     def es_mayor(self) -> bool:
         return self._edad >= 18
 
+    def __str__(self):
+        return f'''nombre: {self.nombre}   
+edad: {self.edad} 
+'''
+
 
 p = Persona("Juan Pérez", 25)
+print(p)
 print(p.saludar())      
 print(p.es_mayor())    
 p.edad = 17
 print(p.es_mayor())    
+
