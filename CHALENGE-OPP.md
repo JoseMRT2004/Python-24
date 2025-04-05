@@ -11,7 +11,7 @@ Este repositorio contiene una lista de ejercicios para practicar y dominar los c
 | #  | Clase/Componente     | Métodos/Acciones                  | Dificultad | Relaciones      | Estado |
 |----|----------------------|-----------------------------------|------------|-----------------|--------|
 | 1  | Persona              | `saludar`, `es_mayor`             | ⭐         | -               |   ✅  |
-| 2  | Estudiante           | `estudiar`, `saludar`•            | ⭐         | Hereda Persona  |
+| 2  | Estudiante           | `estudiar`, `saludar`•            | ⭐         | Hereda Persona  |   ✅  |
 | 3  | Animal               | `hacer_sonido`                    | ⭐         | -               |
 | 4  | Perro                | `hacer_sonido`•, `mover_cola`     | ⭐         | Hereda Animal   |
 | 5  | Rectángulo           | `area`, `perimetro`               | ⭐         | -               |

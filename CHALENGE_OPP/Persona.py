@@ -1,40 +1,38 @@
 class Persona:
-    def __init__(self, nombre: str, edad: int):
+    def __init__(self, nombre, edad):
         self._nombre = nombre
         self._edad = edad
     
     @property
-    def nombre(self) -> str:
+    def nombre(self):
         return self._nombre
     
     @nombre.setter
-    def nombre(self, nuevo_nombre: str):
-        self._nombre = nuevo_nombre
+    def nombre(self, valor):
+        self._nombre = valor
     
     @property
-    def edad(self) -> int:
+    def edad(self):
         return self._edad
     
     @edad.setter
-    def edad(self, nueva_edad: int):
-        self._edad = nueva_edad
+    def edad(self, valor):
+        self._edad = valor
     
-    def saludar(self) -> str:
-        return f"Hola, soy {self._nombre}"
+    def saludar(self):
+        return f"Hola, soy {self.nombre}"
     
-    def es_mayor(self) -> bool:
-        return self._edad >= 18
-
+    def es_mayor(self):
+        return self.edad >= 18
+    
     def __str__(self):
-        return f'''nombre: {self.nombre}   
-edad: {self.edad} 
-'''
+        return f"Persona: {self.nombre}, {self.edad} años"
 
 
-p = Persona("Juan Pérez", 25)
-print(p)
-print(p.saludar())      
-print(p.es_mayor())    
-p.edad = 17
-print(p.es_mayor())    
+# Instancias de Persona
+p1 = Persona("Juan Pérez", 25)
+p2 = Persona("Ana Gómez", 16)
 
+print("--- Probando Persona ---")
+print(p1)
+print(p1.saludar())
