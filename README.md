@@ -31,6 +31,7 @@ El objetivo principal es **practicar y reforzar conocimientos clave** de program
    Ejecuta el siguiente comando en tu terminal para obtener todo el contenido:
    
    ```Power Shell
+# Se esta clonado, Casi comienza la acción 
    git clone https://github.com/JoseMRT2004/Python-24.git
    ```  
 
