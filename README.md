@@ -51,7 +51,5 @@ El objetivo principal es **practicar y reforzar conocimientos clave** de program
    
  - [x] [Linus torvalds](https://github.com/torvalds)
  - [] 
- - [] 
- - []
    
 </details>
