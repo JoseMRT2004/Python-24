@@ -22,7 +22,9 @@ def numero_a_coordenadas(numero):
 
 def hay_victoria(tablero, simbolo):
 
+
     for i in range(3):
+        # Check horizontal and vertical lines
         if all(tablero[i][j] == simbolo for j in range(3)) or \
            all(tablero[j][i] == simbolo for j in range(3)):
             return True
