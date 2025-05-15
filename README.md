@@ -50,8 +50,5 @@ El objetivo principal es **practicar y reforzar conocimientos clave** de program
 <details> <summary><h2><b>🏅 Salón de la Fama<b><h3></summary>
    
  - [x] [Linus torvalds](https://github.com/torvalds)
- - [] 
- - [] 
- - []
    
 </details>
